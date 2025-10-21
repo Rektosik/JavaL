@@ -1,0 +1,336 @@
+Oct 21, 2025 7:12:49 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:12:49 PM ua.Main main
+INFO: Reading file: persons.csv
+Oct 21, 2025 7:12:49 PM ua.io.FileReader readPersons
+SEVERE: IO error reading: persons.csv
+java.nio.file.NoSuchFileException: persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:12:49 PM ua.Main main
+SEVERE: IO error: persons.csv
+java.nio.file.NoSuchFileException: persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:12:49 PM ua.Main main
+INFO: App finished. Items read: 0
+Oct 21, 2025 7:15:31 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:15:31 PM ua.Main main
+INFO: Reading file: persons.csv
+Oct 21, 2025 7:15:31 PM ua.io.FileReader readPersons
+SEVERE: IO error reading: persons.csv
+java.nio.file.NoSuchFileException: persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:15:31 PM ua.Main main
+SEVERE: IO error: persons.csv
+java.nio.file.NoSuchFileException: persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:15:31 PM ua.Main main
+INFO: App finished. Items read: 0
+Oct 21, 2025 7:15:35 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:15:35 PM ua.Main main
+INFO: Reading file: persons.csv
+Oct 21, 2025 7:15:35 PM ua.io.FileReader readPersons
+SEVERE: IO error reading: persons.csv
+java.nio.file.NoSuchFileException: persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:15:35 PM ua.Main main
+SEVERE: IO error: persons.csv
+java.nio.file.NoSuchFileException: persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:15:35 PM ua.Main main
+INFO: App finished. Items read: 0
+Oct 21, 2025 7:15:48 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:15:48 PM ua.Main main
+INFO: Reading file: persons.csv
+Oct 21, 2025 7:15:48 PM ua.io.FileReader readPersons
+SEVERE: IO error reading: persons.csv
+java.nio.file.NoSuchFileException: persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:15:48 PM ua.Main main
+SEVERE: IO error: persons.csv
+java.nio.file.NoSuchFileException: persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:15:48 PM ua.Main main
+INFO: App finished. Items read: 0
+Oct 21, 2025 7:16:03 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:16:03 PM ua.Main main
+INFO: Reading file: ua\persons.csv
+Oct 21, 2025 7:16:03 PM ua.io.FileReader readPersons
+SEVERE: IO error reading: ua\persons.csv
+java.nio.file.NoSuchFileException: ua\persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:16:03 PM ua.Main main
+SEVERE: IO error: ua\persons.csv
+java.nio.file.NoSuchFileException: ua\persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:16:03 PM ua.Main main
+INFO: App finished. Items read: 0
+Oct 21, 2025 7:17:40 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:17:40 PM ua.Main main
+INFO: Reading file: src\ua\persons.csv
+Oct 21, 2025 7:17:40 PM ua.io.FileReader readPersons
+SEVERE: IO error reading: src\ua\persons.csv
+java.nio.file.NoSuchFileException: src\ua\persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:17:40 PM ua.Main main
+SEVERE: IO error: src\ua\persons.csv
+java.nio.file.NoSuchFileException: src\ua\persons.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:24)
+
+Oct 21, 2025 7:17:40 PM ua.Main main
+INFO: App finished. Items read: 0
+Oct 21, 2025 7:17:56 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:17:56 PM ua.Main main
+INFO: Reading file: src\ua\persons.csv
+Oct 21, 2025 7:17:56 PM ua.io.FileReader readPersons
+WARNING: Invalid id at row 1
+Oct 21, 2025 7:17:56 PM ua.Main main
+SEVERE: Invalid data encountered: Invalid id at row 1
+ua.exception.InvalidDataException: Invalid id at row 1
+	at ua.io.FileReader.readPersons(FileReader.java:41)
+	at ua.Main.main(Main.java:24)
+Caused by: java.lang.NumberFormatException: For input string: "John"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at ua.io.FileReader.readPersons(FileReader.java:38)
+	... 1 more
+
+Oct 21, 2025 7:17:56 PM ua.Main main
+INFO: App finished. Items read: 0
+Oct 21, 2025 7:20:41 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:20:41 PM ua.Main main
+INFO: Reading file: src\persons.csv
+Oct 21, 2025 7:20:41 PM ua.io.FileReader readPersons
+WARNING: Invalid id at row 1
+Oct 21, 2025 7:20:41 PM ua.Main main
+SEVERE: Invalid data encountered: Invalid id at row 1
+ua.exception.InvalidDataException: Invalid id at row 1
+	at ua.io.FileReader.readPersons(FileReader.java:41)
+	at ua.Main.main(Main.java:24)
+Caused by: java.lang.NumberFormatException: For input string: "John"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at ua.io.FileReader.readPersons(FileReader.java:38)
+	... 1 more
+
+Oct 21, 2025 7:20:41 PM ua.Main main
+INFO: App finished. Items read: 0
+Oct 21, 2025 7:21:29 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:21:30 PM ua.Main main
+INFO: Reading file: src\persons.csv
+Oct 21, 2025 7:21:30 PM ua.io.FileReader readPersons
+INFO: Created person 1 | John Doe | john@mail.com
+Oct 21, 2025 7:21:30 PM ua.io.FileReader readPersons
+INFO: Created person 2 | Alice Smith | alice@mail.com
+Oct 21, 2025 7:21:30 PM ua.io.FileReader readPersons
+INFO: Created person 3 | Bob Brown | bob@mail.com
+Oct 21, 2025 7:21:30 PM ua.Main main
+INFO: Loaded persons: 3
+Oct 21, 2025 7:21:30 PM ua.Main main
+INFO: Test: create person passed
+Oct 21, 2025 7:21:30 PM ua.io.FileReader readPersons
+SEVERE: IO error reading: nonexistent_file.csv
+java.nio.file.NoSuchFileException: nonexistent_file.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:46)
+
+Oct 21, 2025 7:21:30 PM ua.Main main
+INFO: Test: file not found handling passed
+Oct 21, 2025 7:21:30 PM ua.Main main
+INFO: App finished. Items read: 3
+Oct 21, 2025 7:22:30 PM ua.Main main
+INFO: App start
+Oct 21, 2025 7:22:30 PM ua.Main main
+INFO: Reading file: src\persons.csv
+Oct 21, 2025 7:22:30 PM ua.io.FileReader readPersons
+INFO: Created person 1 | Ivan Ivanenko | ivan@mail.com
+Oct 21, 2025 7:22:30 PM ua.io.FileReader readPersons
+INFO: Created person 2 | Timur Dubi | timur@mail.com
+Oct 21, 2025 7:22:30 PM ua.io.FileReader readPersons
+INFO: Created person 3 | Nikita Seriy | xd@mail.com
+Oct 21, 2025 7:22:30 PM ua.Main main
+INFO: Loaded persons: 3
+Oct 21, 2025 7:22:30 PM ua.Main main
+INFO: Test: create person passed
+Oct 21, 2025 7:22:30 PM ua.io.FileReader readPersons
+SEVERE: IO error reading: nonexistent_file.csv
+java.nio.file.NoSuchFileException: nonexistent_file.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2645)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2674)
+	at ua.io.FileReader.readPersons(FileReader.java:21)
+	at ua.Main.main(Main.java:46)
+
+Oct 21, 2025 7:22:30 PM ua.Main main
+INFO: Test: file not found handling passed
+Oct 21, 2025 7:22:30 PM ua.Main main
+INFO: App finished. Items read: 3

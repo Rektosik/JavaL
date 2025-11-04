@@ -1,0 +1,102 @@
+Oct 29, 2025 9:04:58 AM ua.Main main
+INFO: === Program started ===
+Oct 29, 2025 9:04:58 AM ua.util.Utils readDataFromFile
+SEVERE: File error: students.txt (The system cannot find the file specified)
+java.io.FileNotFoundException: students.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at ua.util.Utils.readDataFromFile(Utils.java:54)
+	at ua.Main.main(Main.java:21)
+
+Oct 29, 2025 9:04:58 AM ua.Main main
+WARNING: Invalid data detected: Error reading file: students.txt
+Oct 29, 2025 9:04:58 AM ua.Main main
+INFO: === Program finished ===
+Oct 29, 2025 9:05:19 AM ua.Main main
+INFO: === Program started ===
+Oct 29, 2025 9:05:19 AM ua.util.Utils readDataFromFile
+SEVERE: File error: students.txt (The system cannot find the file specified)
+java.io.FileNotFoundException: students.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at ua.util.Utils.readDataFromFile(Utils.java:54)
+	at ua.Main.main(Main.java:21)
+
+Oct 29, 2025 9:05:19 AM ua.Main main
+WARNING: Invalid data detected: Error reading file: students.txt
+Oct 29, 2025 9:05:19 AM ua.Main main
+INFO: === Program finished ===
+Oct 29, 2025 9:05:24 AM ua.Main main
+INFO: === Program started ===
+Oct 29, 2025 9:05:24 AM ua.util.Utils readDataFromFile
+SEVERE: File error: students.txt (The system cannot find the file specified)
+java.io.FileNotFoundException: students.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at ua.util.Utils.readDataFromFile(Utils.java:54)
+	at ua.Main.main(Main.java:21)
+
+Oct 29, 2025 9:05:24 AM ua.Main main
+WARNING: Invalid data detected: Error reading file: students.txt
+Oct 29, 2025 9:05:24 AM ua.Main main
+INFO: === Program finished ===
+Oct 29, 2025 9:06:42 AM ua.Main main
+INFO: === Program started ===
+Oct 29, 2025 9:06:42 AM ua.util.Utils readDataFromFile
+SEVERE: File error: students.txt (The system cannot find the file specified)
+java.io.FileNotFoundException: students.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at ua.util.Utils.readDataFromFile(Utils.java:54)
+	at ua.Main.main(Main.java:21)
+
+Oct 29, 2025 9:06:42 AM ua.Main main
+WARNING: Invalid data detected: Error reading file: students.txt
+Oct 29, 2025 9:06:42 AM ua.Main main
+INFO: === Program finished ===
+Oct 29, 2025 9:26:30 AM ua.util.Utils createExampleFile
+INFO: Example file created at: D:\Document\3year\Java\Lab3\students.txt
+Oct 29, 2025 9:26:30 AM ua.util.Utils readDataFromFile
+INFO: Reading file: D:\Document\3year\Java\Lab3\students.txt
+Oct 29, 2025 9:26:30 AM ua.util.Utils readDataFromFile
+INFO: File read successfully, records: 3
+Oct 29, 2025 9:26:30 AM ua.Main main
+INFO: Created: Alice Smith (alice@mail.com, enrolled 29-10-2025)
+Oct 29, 2025 9:26:30 AM ua.Main main
+INFO: Created: Bob Brown (bob@mail.com, enrolled 01-11-2025)
+Oct 29, 2025 9:26:30 AM ua.Main main
+INFO: Created: Clara White (clara@mail.com, enrolled 30-10-2025)
+Oct 29, 2025 9:26:30 AM ua.Main main
+INFO: Course created successfully.
+Oct 29, 2025 9:26:30 AM ua.Main main
+INFO: === Program finished ===
+Nov 04, 2025 6:01:39 PM ua.util.Utils readDataFromFile
+INFO: Reading file: D:\Document\3year\Java\Lab3\students.txt
+Nov 04, 2025 6:01:40 PM ua.util.Utils readDataFromFile
+INFO: File read successfully, records: 3
+Nov 04, 2025 6:01:40 PM ua.Main main
+WARNING: Invalid student: [Alice, Smith, alice@mail.com, 2025-10-29] → Enrollment date cannot be in the past
+Nov 04, 2025 6:01:40 PM ua.Main main
+WARNING: Invalid student: [Bob, Brown, bob@mail.com, 2025-11-01] → Enrollment date cannot be in the past
+Nov 04, 2025 6:01:40 PM ua.Main main
+WARNING: Invalid student: [Clara, White, clara@mail.com, 2025-10-30] → Enrollment date cannot be in the past
+Nov 04, 2025 6:01:40 PM ua.Main main
+INFO: Course created successfully.
+Nov 04, 2025 6:01:40 PM ua.Main main
+INFO: === Program finished ===
+Nov 04, 2025 6:26:20 PM ua.util.Utils readDataFromFile
+INFO: Reading file: D:\Document\3year\Java\Lab3\file_that_does_not_exist.txt
+Nov 04, 2025 6:26:20 PM ua.util.Utils readDataFromFile
+SEVERE: File not found: D:\Document\3year\Java\Lab3\file_that_does_not_exist.txt

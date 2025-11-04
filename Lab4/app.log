@@ -1,0 +1,48 @@
+Nov 04, 2025 6:47:18 PM ua.util.Utils createExampleFile
+INFO: Example file created at: D:\Document\3year\Java\Lab4\students.txt
+Nov 04, 2025 6:47:18 PM ua.util.Utils readDataFromFile
+INFO: Reading file: D:\Document\3year\Java\Lab4\students.txt
+Nov 04, 2025 6:47:18 PM ua.util.Utils readDataFromFile
+INFO: File read successfully, records: 3
+Nov 04, 2025 6:47:18 PM ua.Main main
+WARNING: Invalid student: [Alice, Smith, alice@mail.com, 2025-10-29] → Enrollment date cannot be in the past
+Nov 04, 2025 6:47:18 PM ua.Main main
+WARNING: Invalid student: [Bob, Brown, bob@mail.com, 2025-11-01] → Enrollment date cannot be in the past
+Nov 04, 2025 6:47:18 PM ua.Main main
+WARNING: Invalid student: [Clara, White, clara@mail.com, 2025-10-30] → Enrollment date cannot be in the past
+Nov 04, 2025 6:47:18 PM ua.Main main
+INFO: Course created successfully.
+Nov 04, 2025 6:47:18 PM ua.Main main
+INFO: === Program finished (initial) ===
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor: ua.Main$$Lambda/0x000000008104c000
+Nov 04, 2025 6:47:18 PM ua.util.Utils readDataFromFile
+INFO: Reading file: D:\Document\3year\Java\Lab4\students.txt
+Nov 04, 2025 6:47:18 PM ua.util.Utils readDataFromFile
+INFO: File read successfully, records: 3
+Nov 04, 2025 6:47:18 PM ua.Main main
+WARNING: Cannot build student from row: [Alice, Smith, alice@mail.com, 2025-10-29] -> Enrollment date cannot be in the past
+Nov 04, 2025 6:47:18 PM ua.Main main
+WARNING: Cannot build student from row: [Bob, Brown, bob@mail.com, 2025-11-01] -> Enrollment date cannot be in the past
+Nov 04, 2025 6:47:18 PM ua.Main main
+WARNING: Cannot build student from row: [Clara, White, clara@mail.com, 2025-10-30] -> Enrollment date cannot be in the past
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor: ua.test.RepositoryTests$$Lambda/0x000000008104c8b8
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository add
+INFO: Added element with id=anna@mail.com -> Anna One (anna@mail.com, enrolled 09-11-2025)
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository add
+INFO: Added element with id=ben@mail.com -> Ben Two (ben@mail.com, enrolled 10-11-2025)
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository add
+INFO: Added element with id=carl@mail.com -> Carl Three (carl@mail.com, enrolled 11-11-2025)
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository findByIdentity
+FINE: findByIdentity(ben@mail.com) -> Ben Two (ben@mail.com, enrolled 10-11-2025)
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository removeByIdentity
+INFO: Removed element with id=anna@mail.com -> Anna One (anna@mail.com, enrolled 09-11-2025)
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository findByIdentity
+FINE: findByIdentity(anna@mail.com) -> null
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository add
+WARNING: Duplicate identity on add: ben@mail.com
+Nov 04, 2025 6:47:18 PM ua.repository.GenericRepository removeByIdentity
+INFO: Removed element with id=carl@mail.com -> Carl Three (carl@mail.com, enrolled 11-11-2025)
+Nov 04, 2025 6:47:18 PM ua.Main main
+INFO: === Program finished (all) ===

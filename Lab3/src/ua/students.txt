@@ -1,0 +1,4 @@
+Ivan,Kh,alice@mail.com,2025-10-29
+Nikita,Redo,bob@mail.com,2025-10-30
+,,invalid@mail.com,2024-10-01
+Natalia,Pod,invalidemail,2025-09-10

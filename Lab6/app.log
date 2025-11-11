@@ -1,0 +1,88 @@
+Nov 11, 2025 6:08:53 PM ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+Nov 11, 2025 6:08:53 PM ua.repository.GenericRepository add
+INFO: Added element id=b@mail.com
+Nov 11, 2025 6:08:53 PM ua.repository.GenericRepository add
+INFO: Added element id=a@mail.com
+Nov 11, 2025 6:08:53 PM ua.repository.GenericRepository sortByIdentity
+INFO: sortByIdentity order=DESC
+Nov 11, 2025 6:08:53 PM ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+Nov 11, 2025 6:08:53 PM ua.repository.GenericRepository add
+INFO: Added element id=b@mail.com
+Nov 11, 2025 6:08:53 PM ua.repository.GenericRepository add
+INFO: Added element id=a@mail.com
+Nov 11, 2025 6:08:53 PM ua.repository.StudentRepository sortByLastName
+INFO: sortByLastName
+Nov 11, 2025 6:15:15 PM ua.util.Utils createExampleFile
+INFO: Example file created at: D:\Document\3year\Java\Lab6\students.txt
+Nov 11, 2025 6:15:15 PM ua.util.Utils readDataFromFile
+INFO: Reading file: D:\Document\3year\Java\Lab6\students.txt
+Nov 11, 2025 6:15:15 PM ua.util.Utils readDataFromFile
+INFO: File read successfully, records: 3
+Nov 11, 2025 6:15:15 PM ua.Main main
+WARNING: Skipping invalid row: Alice,Smith,alice@mail.com,2025-10-29 -> Enrollment date cannot be in the past
+Nov 11, 2025 6:15:15 PM ua.Main main
+WARNING: Skipping invalid row: Bob,Brown,bob@mail.com,2025-11-01 -> Enrollment date cannot be in the past
+Nov 11, 2025 6:15:15 PM ua.Main main
+WARNING: Skipping invalid row: Clara,White,clara@mail.com,2025-10-30 -> Enrollment date cannot be in the past
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository add
+INFO: Added element id=ivan.koval@mail.com
+Nov 11, 2025 6:15:15 PM ua.Main main
+INFO: Added new: ivan.koval@mail.com
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository add
+INFO: Added element id=oksana.m@mail.com
+Nov 11, 2025 6:15:15 PM ua.Main main
+INFO: Added new: oksana.m@mail.com
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository sortByIdentity
+INFO: sortByIdentity order=ASC
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository sortByIdentity
+INFO: sortByIdentity order=DESC
+Nov 11, 2025 6:15:15 PM ua.repository.StudentRepository sortByLastName
+INFO: sortByLastName
+Nov 11, 2025 6:15:15 PM ua.repository.StudentRepository sortByEnrollmentDate
+INFO: sortByEnrollmentDate
+Nov 11, 2025 6:15:15 PM ua.Main main
+INFO: Demo finished.
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository add
+INFO: Added element id=Doe
+Nov 11, 2025 6:15:15 PM ua.repository.GenericRepository add
+INFO: Added element id=Smith
+Nov 11, 2025 6:15:16 PM ua.repository.GenericRepository add
+INFO: Added element id=Java Basics
+Nov 11, 2025 6:15:16 PM ua.repository.GenericRepository add
+INFO: Added element id=Databases
+Nov 11, 2025 6:15:16 PM ua.repository.GenericRepository add
+INFO: Added element id=OOP
+Nov 11, 2025 6:15:16 PM ua.repository.GenericRepository add
+INFO: Added element id=SQL
+Nov 11, 2025 6:15:16 PM ua.repository.CourseRepository findByTitle
+INFO: findByTitle Java Basics
+Nov 11, 2025 6:15:16 PM ua.repository.CourseRepository findByCreditsRange
+INFO: findByCreditsRange 2-5
+Nov 11, 2025 6:15:16 PM ua.repository.ModuleRepository findByTitlePrefix
+INFO: findByTitlePrefix S
+Nov 11, 2025 6:15:16 PM ua.repository.InstructorRepository findByExpertise
+INFO: findByExpertise Sec
+Nov 11, 2025 6:15:16 PM ua.repository.CourseRepository collectStudentEmailsFromCourses
+INFO: collectStudentEmailsFromCourses
+Nov 11, 2025 6:15:16 PM ua.repository.ModuleRepository mapTitlesCollect
+INFO: mapTitlesCollect
+Nov 11, 2025 6:15:16 PM ua.repository.StudentRepository emailsReduce
+INFO: emailsReduce
+Nov 11, 2025 6:15:16 PM ua.repository.CourseRepository collectStudentEmailsFromCourses
+INFO: collectStudentEmailsFromCourses
+Nov 11, 2025 6:15:16 PM ua.repository.StudentRepository countByLastNameSequential
+INFO: countByLastNameSequential Melnyk
+Nov 11, 2025 6:15:16 PM ua.repository.StudentRepository countByLastNameParallel
+INFO: countByLastNameParallel Melnyk
+Nov 11, 2025 6:15:16 PM ua.Main main
+INFO: Extended demo finished.

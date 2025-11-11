@@ -1,0 +1,3 @@
+Alice,Smith,alice@mail.com,2025-10-29
+Bob,Brown,bob@mail.com,2025-11-01
+Clara,White,clara@mail.com,2025-10-30

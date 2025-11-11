@@ -1,0 +1,50 @@
+Nov 11, 2025 5:29:59 PM ua.util.Utils readDataFromFile
+INFO: Reading file: D:\Document\3year\Java\Lab5\students.txt
+Nov 11, 2025 5:29:59 PM ua.util.Utils readDataFromFile
+SEVERE: File not found: D:\Document\3year\Java\Lab5\students.txt
+Nov 11, 2025 5:30:15 PM ua.repository.GenericRepository <init>
+INFO: Repository created.
+Nov 11, 2025 5:30:15 PM ua.repository.GenericRepository add
+INFO: Added: Bob Zeta (b@mail.com, enrolled 13-11-2025)
+Nov 11, 2025 5:30:15 PM ua.repository.GenericRepository add
+INFO: Added: Alice Alpha (a@mail.com, enrolled 13-11-2025)
+Nov 11, 2025 5:30:15 PM ua.repository.GenericRepository sortByIdentity
+INFO: Sorting by Comparable identity, order = DESC
+Nov 11, 2025 5:30:15 PM ua.repository.GenericRepository <init>
+INFO: Repository created.
+Nov 11, 2025 5:30:15 PM ua.repository.GenericRepository add
+INFO: Added: Bob Zeta (b@mail.com, enrolled 13-11-2025)
+Nov 11, 2025 5:30:15 PM ua.repository.GenericRepository add
+INFO: Added: Alice Alpha (a@mail.com, enrolled 13-11-2025)
+Nov 11, 2025 5:30:21 PM ua.util.Utils readDataFromFile
+INFO: Reading file: D:\Document\3year\Java\Lab5\students.txt
+Nov 11, 2025 5:30:21 PM ua.util.Utils readDataFromFile
+SEVERE: File not found: D:\Document\3year\Java\Lab5\students.txt
+Nov 11, 2025 5:38:58 PM ua.util.Utils createExampleFile
+INFO: Example file created at: D:\Document\3year\Java\Lab5\students.txt
+Nov 11, 2025 5:38:58 PM ua.util.Utils readDataFromFile
+INFO: Reading file: D:\Document\3year\Java\Lab5\students.txt
+Nov 11, 2025 5:38:58 PM ua.util.Utils readDataFromFile
+INFO: File read successfully, records: 3
+Nov 11, 2025 5:38:58 PM ua.Main main
+WARNING: Skipping invalid row: Alice,Smith,alice@mail.com,2025-10-29 -> Enrollment date cannot be in the past
+Nov 11, 2025 5:38:58 PM ua.Main main
+WARNING: Skipping invalid row: Bob,Brown,bob@mail.com,2025-11-01 -> Enrollment date cannot be in the past
+Nov 11, 2025 5:38:58 PM ua.Main main
+WARNING: Skipping invalid row: Clara,White,clara@mail.com,2025-10-30 -> Enrollment date cannot be in the past
+Nov 11, 2025 5:38:58 PM ua.repository.GenericRepository <init>
+INFO: Repository created.
+Nov 11, 2025 5:38:58 PM ua.repository.GenericRepository add
+INFO: Added: Ivan Koval (ivan.koval@mail.com, enrolled 16-11-2025)
+Nov 11, 2025 5:38:58 PM ua.Main main
+INFO: Added new: ivan.koval@mail.com
+Nov 11, 2025 5:38:58 PM ua.repository.GenericRepository add
+INFO: Added: Oksana Melnyk (oksana.m@mail.com, enrolled 13-11-2025)
+Nov 11, 2025 5:38:58 PM ua.Main main
+INFO: Added new: oksana.m@mail.com
+Nov 11, 2025 5:38:58 PM ua.repository.GenericRepository sortByIdentity
+INFO: Sorting by Comparable identity, order = ASC
+Nov 11, 2025 5:38:58 PM ua.repository.GenericRepository sortByIdentity
+INFO: Sorting by Comparable identity, order = DESC
+Nov 11, 2025 5:38:58 PM ua.Main main
+INFO: Demo finished.

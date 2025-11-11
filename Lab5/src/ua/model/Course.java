@@ -1,0 +1,44 @@
+package ua.model;
+
+import ua.validation.CourseValidation;
+import ua.util.Utils;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public record Course(
+        String title,
+        String description,
+        int credits,
+        LocalDate startDate,
+        Instructor instructor,
+        CourseLevel level,
+        List<Student> students
+) implements Comparable<Course> {
+
+    public static final Comparator<Course> BY_CREDITS =
+            Comparator.comparingInt(Course::credits);
+
+    public static final Comparator<Course> BY_START_DATE =
+            Comparator.comparing(Course::startDate);
+
+    public Course {
+        CourseValidation.requireValidCourseData(title, description, credits, startDate, instructor);
+        if (level == null) throw new IllegalArgumentException("Course level cannot be null");
+        students = students == null ? new ArrayList<>() : new ArrayList<>(students);
+    }
+
+    @Override
+    public int compareTo(Course o) {
+        return this.title.compareToIgnoreCase(o.title);
+    }
+
+    @Override
+    public String toString() {
+        return "Course: " + title + " (" + credits + " credits, " + level + ")\n"
+                + "Instructor: " + instructor + "\n"
+                + "Starts: " + Utils.formatDate(startDate) + "\n"
+                + "Students: " + students.size();
+    }
+}

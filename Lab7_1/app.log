@@ -1,0 +1,48 @@
+лист. 25, 2025 7:31:14 ПП ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+лист. 25, 2025 7:31:14 ПП ua.repository.GenericRepository add
+INFO: Added element id=user0@example.com
+лист. 25, 2025 7:31:14 ПП ua.repository.GenericRepository add
+INFO: Added element id=user1@example.com
+лист. 25, 2025 7:31:14 ПП ua.repository.GenericRepository add
+INFO: Added element id=user2@example.com
+лист. 25, 2025 7:31:14 ПП ua.repository.GenericRepository add
+INFO: Added element id=user3@example.com
+лист. 25, 2025 7:31:14 ПП ua.repository.GenericRepository add
+INFO: Added element id=user4@example.com
+лист. 25, 2025 7:31:14 ПП ua.util.SerializerService saveToJson
+INFO: Saved JSON to students.json
+лист. 25, 2025 7:31:14 ПП ua.util.SerializerService saveToYaml
+INFO: Saved YAML to students.yaml
+лист. 25, 2025 7:36:45 ПП ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+лист. 25, 2025 7:36:45 ПП ua.repository.GenericRepository add
+INFO: Added element id=user0@example.com
+лист. 25, 2025 7:36:45 ПП ua.repository.GenericRepository add
+INFO: Added element id=user1@example.com
+лист. 25, 2025 7:36:45 ПП ua.repository.GenericRepository add
+INFO: Added element id=user2@example.com
+лист. 25, 2025 7:36:45 ПП ua.repository.GenericRepository add
+INFO: Added element id=user3@example.com
+лист. 25, 2025 7:36:45 ПП ua.repository.GenericRepository add
+INFO: Added element id=user4@example.com
+лист. 25, 2025 7:36:46 ПП ua.util.SerializerService saveToJson
+INFO: Saved JSON to students.json
+лист. 25, 2025 7:36:46 ПП ua.util.SerializerService saveToYaml
+INFO: Saved YAML to students.yaml
+лист. 25, 2025 7:36:50 ПП ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+лист. 25, 2025 7:36:50 ПП ua.repository.GenericRepository add
+INFO: Added element id=test@mail.com
+лист. 25, 2025 7:36:51 ПП ua.util.SerializerService saveToJson
+INFO: Saved JSON to test_data.json
+лист. 25, 2025 7:36:51 ПП ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+лист. 25, 2025 7:36:51 ПП ua.repository.GenericRepository add
+INFO: Added element id=test@mail.com
+лист. 25, 2025 7:36:51 ПП ua.repository.GenericRepository <init>
+INFO: GenericRepository created for extractor
+лист. 25, 2025 7:36:51 ПП ua.repository.GenericRepository add
+INFO: Added element id=test@mail.com
+лист. 25, 2025 7:36:51 ПП ua.util.SerializerService saveToYaml
+INFO: Saved YAML to test_data.yaml

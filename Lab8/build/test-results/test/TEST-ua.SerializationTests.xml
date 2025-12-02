@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.SerializationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-12-02T13:22:41.891Z" hostname="DESKTOP-EVEF1TB" time="0.517">
+  <properties/>
+  <testcase name="testJsonSerialization()" classname="ua.SerializationTests" time="0.444"/>
+  <testcase name="testInvalidJsonThrowsException()" classname="ua.SerializationTests" time="0.004"/>
+  <testcase name="testYamlSerialization()" classname="ua.SerializationTests" time="0.065"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
